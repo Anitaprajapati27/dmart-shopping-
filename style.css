@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+.nav-main{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(103, 103, 200); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    /* position: fixed; */
+    
+    
+
+}
+.f{
+    font-size: 20px;
+}
+.border:hover{
+    /* border: 2px solid black; */
+    color: rgb(43, 226, 46);
+}
+.fa-solid{
+    font-size: 50px;
+}
+#city{
+  background-color:transparent ;
+  font-size: 20px;
+  border: 1px solid black;
+}
+body{
+    background-color: rgb(110, 110, 178);
+}
+.img1{
+    height: 800px;
+    background-image: url("task1_real.jpg");
+    background-size: cover;
+    /* width: 80%; */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    padding-left: 50px;
+    margin: 25px;
+    
+}
+.img2{
+    height: 800px;
+    background-image: url("task1-party.jpg");
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img3{
+    height: 800px;
+    background-image: url("task1-traditional.jpg");
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img4{
+    height: 800px;
+    background-image: url("task1-foot.jpg");
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    
+    height: 400px;
+    background-color:rgb(78, 78, 107) ;
+    margin-top: 80px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.h1:hover{
+    color: rgb(243, 48, 223);
+}
+.h2:hover{
+    color: rgb(53, 163, 253);
+}
+.h3:hover{
+    color: rgb(46, 92, 243);
+}
+.h4:hover{
+    color: red;
+}
+.img1:hover, .img1:focus{
+    transition: 0.2s;
+    transform:scale(1.05);
+}
+.img2:hover, .img1:focus{
+    transition: 0.2s;
+    transform:scale(1.05);
+}
+.img3:hover, .img1:focus{
+    transition: 0.2s;
+    transform:scale(1.05);
+}
+.img4:hover, .img1:focus{
+    transition: 0.2s;
+    transform:scale(1.05);
+}
+.fa-bars:hover {
+    color:  rgb(43, 226, 46);
+}
+
